@@ -10,8 +10,14 @@ tags:
 ---
 
 ### For MAC OSX
+---
+LaTeX（/ˈlɑːtɛx/，常被读作/ˈlɑːtɛk/或/ˈleɪtɛk/），排版时通常使用LATEX，是一种基于TeX的排版系统，由美国计算机科学家莱斯利·兰伯特在20世纪80年代初期开发，利用这种格式系统的处理，即使用户没有排版和程序设计的知识也可以充分发挥由TeX所提供的强大功能，不必一一亲自去设计或校对，能在几天，甚至几小时内生成很多具有书籍质量的印刷品。对于生成复杂表格和数学公式，这一点表现得尤为突出。因此它非常适用于生成高印刷质量的科技和数学、物理文档。这个系统同样适用于生成从简单的信件到完整书籍的所有其他种类的文档。
 
-3. 安装`vimtex`插件
+使用vim 来编辑latex文件，需要安装vim的latex插件- vimtex。markdown文件编译成latex文件需要编译工具支持，这里我选择latexmk。显示PDF文件使用zathura。
+
+#### 安装
+1. 安装`vimtex`插件
+tx.vim: socket /tmp/fcitx-socket-/private/tmp/com.apple.launchd.zxwF4zFNm6/org.macosforge error: [Errno 2] No such file or directoryfcitx.vim: socket /tmp/fcitx-socket-/private/tmp/com.apple.launchd.zxwF4zFNm6/org.macosforge error: [Errno 2] No such file or directory
 ```
     Plugin 'lervag/vimtex', {'for': ['tex', 'plaintex', 'bst']}
 ```
@@ -53,12 +59,14 @@ let g:UltiSnipsJumpForwardTrigger="<c-j>"
 let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 ```
 
+#### 动态同步latex
 
 ### For Linux 
-    `todo`
+---
+    todo
 
 ### Reference
-
+---
 [https://github.com/zegervdv/homebrew-zathura](https://github.com/zegervdv/homebrew-zathura)
 
 [https://castel.dev/post/lecture-notes-1/](https://castel.dev/post/lecture-notes-1/)
