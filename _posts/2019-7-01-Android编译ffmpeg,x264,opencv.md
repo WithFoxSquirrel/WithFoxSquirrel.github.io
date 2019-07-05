@@ -15,7 +15,7 @@ tags:
 
 > FFMPEG 源码
 [https://ffmpeg.org/download.html#build-linux](https://ffmpeg.org/download.html#build-linux)
-可以参考[ffmpeg-android脚本的写法](git@github.com:WritingMinds/ffmpeg-android.git)
+可以参考[ffmpeg-android脚本的写法](https://github.com/WritingMinds/ffmpeg-android)
 
 > x264 源码
 [https://www.videolan.org/developers/x264.html](https://www.videolan.org/developers/x264.html)
